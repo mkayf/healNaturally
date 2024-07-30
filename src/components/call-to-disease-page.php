@@ -18,7 +18,8 @@
             <p>Discover natural remedies and cures for a variety of diseases. Click the button below to find the perfect remedy for your health condition.</p>
             <a href="diseases.html" class="cta-btn">Find Your Cure</a>
         </div>
-        <div class="col col-sm-12 col-md-6 col-lg-7 cta-img-div   "> 
+        <div class="col col-sm-12 col-md-6 col-lg-7 cta-img-div">
+            <!-- CTA background image here -->
         </div>
     </div>
 </div>
