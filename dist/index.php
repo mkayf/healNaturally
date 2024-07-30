@@ -4,20 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HealNaturally - Embrace wellness with HealNaturally</title>
+    <!-- Fav icon link -->
+     <link rel="shortcut icon" href="../assets/images/fav.ico" type="image/x-icon">
+    <!-- Output css file -->
     <link rel="stylesheet" href="output.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- google fonts cdn -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- Bootstrap cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- custom style css -->
     <link rel="stylesheet" href="../src/components/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fjalla+One&display=swap"
-      rel="stylesheet"
-    />
+   
   </head>
 
   <style>
@@ -47,7 +51,7 @@
               class="logo cursor-pointer hover:opacity-90 transition-all ease-out duration-500"
             >
               <img
-                src="materials/logo.svg"
+                src="../assets/images/logo.svg"
                 class="h-28 scale-125 w-52 object-cover"
                 alt=""
               />
@@ -187,7 +191,7 @@
           autoplay
           loop
         >
-          <source src="materials/shiny.mp4" type="video/mp4" />
+          <source src="../assets/videos/shiny.mp4" type="video/mp4" />
         </video>
         <video
           style="object-position: 80% 50%"
@@ -196,7 +200,7 @@
           autoplay
           loop
         >
-          <source src="materials/shiny.mp4" type="video/mp4" />
+          <source src="../assets/videos/shiny.mp4" type="video/mp4" />
         </video>
 
         <!-- carosel text -->
