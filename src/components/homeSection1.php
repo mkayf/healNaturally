@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mini about section - Home section 1</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="homeSection1style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     
@@ -38,8 +38,8 @@
                 </ul>
             </div>
             <div class="col col-sm-12 col-md-6 col-lg-5 mini-about-imgs">
-                    <img src="./assets/images/herbal-mash.png" alt="herb-img" class="herb-img">
-                    <img src="./assets/images/Running-pana.svg" alt="jogger" class="jogger">
+                    <img src="../assets/images/herbal-mash.png" alt="herb-img" class="herb-img">
+                    <img src="../assets/images/Running-pana.svg" alt="jogger" class="jogger">
             </div>
         </div>
 
