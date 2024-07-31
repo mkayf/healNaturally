@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+    overflow-x: hidden;
+}
+.login-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5%;
+    padding: 60px;
+    gap: 50px;
+}
+.login-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.leftside .login-img img{
+    width: 53vw;
+    height: 550px;
+    border-radius: 8px;
+}
+.rightside{
+    width: 450px;
+    height: 550px;
+    border-radius: 8px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction:column ;
+    background-color: whitesmoke;
+    margin-bottom: 5%;
+    padding-top: 2.5%;
+}
+.rightside h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+    margin-top: 80%;
+}
+.login-inputs input{
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: grey;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid silver;
+    font-family: "Dosis", sans-serif;
+}
+#login-email{
+    margin-top: 50px;
+}
+#login-pass{
+    margin-top: 20px;
+}
+.login-inputs button{
+    width: 350px;
+    height: 45px;
+    background-color: #6c9f6c;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.login-inputs p{
+    margin-top: 20px;
+}
+.login-inputs p span{
+    color: green;
+}
+
+/* responsive-login-form  */
+
+@media only screen and (max-width: 1150px){
+    .login-container{
+        gap: 20px;
+    }
+}
+@media only screen and (max-width: 950px){
+    .login-inputs input{
+        width: 280px;
+    }    
+    .login-inputs button{
+        width: 280px;
+    }    
+    .login-inputs p{
+        margin-top: 16px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .login-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftside .login-img img{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+    }
+    .rightside{
+        width: 78vw;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        margin-left: -15px;
+    }
+    .login-inputs input{
+        width: 70vw;
+        height: 50px;
+    }    
+    .login-inputs button{
+        width: 70vw;
+        height: 50px; 
+    }
+    .login-inputs p{
+        margin-top: 25px;
+        font-size: 16px;
+    }
+    .rightside h1{
+        margin-top: 5%;
+    }     
+}
+@media only screen and (max-width: 400px){
+    .leftside .login-img img{
+        height: 450px;
+    }
+    .rightside{
+        height: 450px;
+    }
+}
