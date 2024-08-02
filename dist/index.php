@@ -216,6 +216,10 @@
   </div>
 
 
+
+
+  <!-- Custom js -->
+   <script src="../src/components/script.js"></script>
   <!-- Custom GSAP script -->
   <script src="gsap.js"></script>
   <!-- Include the GSAP CDN -->
