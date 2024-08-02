@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+:root{
+    --green: #6c9f6c;
+    --fjalla-font: "Fjalla One", sans-serif;
+    --dosis-font: "Dosis", sans-serif;  
+    --general-p-size: 1.1rem;
+}
 
 /* home section */
 
@@ -449,9 +455,65 @@ li ~ p{
         margin-left: 0;
     }
 }
-
-
 /* end footer */
 
 
 /* end home section */
+
+
+/* disease page styling goes here */
+
+/* disease page search form styling */
+
+    .disease-input-div .disease-input{
+        flex-basis: 85%;
+        height: 50px;
+        outline: transparent;
+        padding: 2px 15px;
+        border: none;
+        background-color: #f0f0f0;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .disease-input-div .disease-submit{
+        flex-basis: 15%;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border: none;
+        outline: transparent;
+    }
+    .disease-input-div .disease-submit i{
+        color: green;
+    }
+/* disease page search form styling ends here */
+
+/* desease box styling goes here */
+    .disease-box{
+        background: #f2f0f0;
+        padding: 30px 50px;
+        border-radius: 23px;
+        background: linear-gradient(145deg, #e6e6e6, #ffffff);
+        box-shadow:  9px 9px 18px #ebebeb,
+             -9px -9px 18px #ffffff;
+    }
+    .disease-title-div h2{
+        color: var(--green);
+    }
+    .disease-box h5{
+        color: var(--green);
+    }
+    .disease-box p{
+        font-size: var(--general-p-size);
+    }
+    .disease-box li{
+        font-size: var(--general-p-size);
+        font-family: var(--dosis-font);
+    }
+    .disease-img-div img{
+        width: 100%;
+        border-radius: 20px;
+    }
+/* desease box styling ends here */
+
+
+/* disease page styling ends here */
