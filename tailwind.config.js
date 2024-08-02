@@ -17,6 +17,7 @@ module.exports = {
  
       animation: {
         'loop-scroll': 'loop-scroll  38s linear infinite',
+        'paused': 'loop-scroll 38s linear paused'
       },
  
       keyframes: {
