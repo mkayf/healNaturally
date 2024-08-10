@@ -16,6 +16,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- custom style css -->
   <link rel="stylesheet" href="../src/components/style.css" />
 
@@ -171,31 +173,31 @@
           <span aria-hidden="true"
             class=" group-hover:animate-paused font-fjalla  inline-block min-w-full animate-loop-scroll text-slate-200 lg:text-2xl    text-xl">
             Heal Naturally&nbsp;&nbsp;&nbsp;with Local
-            Ramedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
-            Local Ramedies&nbsp;&nbsp;&nbsp;Heal
+            Remedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
+            Local Remedies&nbsp;&nbsp;&nbsp;Heal
             Naturally&nbsp;&nbsp;&nbsp;with Local
-            Ramedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
-            Local Ramedies&nbsp;&nbsp;&nbsp;Heal
+            Remedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
+            Local Remedies&nbsp;&nbsp;&nbsp;Heal
             Naturally&nbsp;&nbsp;&nbsp;with Local
-            Ramedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
-            Local Ramedies&nbsp;&nbsp;&nbsp;Heal
+            Remedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
+            Local Remedies&nbsp;&nbsp;&nbsp;Heal
             Naturally&nbsp;&nbsp;&nbsp;with Local
-            Ramedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
+            Remedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
             Local Remedies&nbsp;&nbsp;&nbsp;
           </span>
           <span aria-hidden="true"
             class=" group-hover:animate-paused font-fjalla inline-block min-w-full animate-loop-scroll text-slate-200    lg:text-2xl text-xl">
             Heal Naturally&nbsp;&nbsp;&nbsp;with Local
-            Ramedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
-            Local Ramedies&nbsp;&nbsp;&nbsp;Heal
+            Remedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
+            Local Remedies&nbsp;&nbsp;&nbsp;Heal
             Naturally&nbsp;&nbsp;&nbsp;with Local
-            Ramedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
-            Local Ramedies&nbsp;&nbsp;&nbsp;Heal
+            Remedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
+            Local Remedies&nbsp;&nbsp;&nbsp;Heal
             Naturally&nbsp;&nbsp;&nbsp;with Local
-            Ramedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
-            Local Ramedies&nbsp;&nbsp;&nbsp;Heal
+            Remedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
+            Local Remedies&nbsp;&nbsp;&nbsp;Heal
             Naturally&nbsp;&nbsp;&nbsp;with Local
-            Ramedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
+            Remedies&nbsp;&nbsp;&nbsp;Heal Naturally&nbsp;&nbsp;&nbsp;with
             Local Remedies&nbsp;&nbsp;&nbsp;
           </span>
         </a>
@@ -210,7 +212,7 @@
     <?php include '../src/components/call-to-disease-page.php' ?>
 
     <!-- Footer component -->
-    <?php include '../src/components/footer.php' ?>
+    <?php include '../src/components/footer_new.php' ?>
 
     <!-- main div ends here -->
   </div>
