@@ -1,34 +1,38 @@
-console.log(1);
-
 document.addEventListener('DOMContentLoaded', () => {
 
 // Disease box scripting goes here:
 
 // Second row of usage guide and natural ingredients.
 // Toggle functionality to read more or less.
-const dboxrow2 = document.querySelector('.d-box-row-2');
-const toggleBtn = document.querySelector('.read-btn');
-let rowClosed = true;
-if(rowClosed){
-        dboxrow2.style.height = '100px';
-        dboxrow2.style.overflow = 'hidden';
-        // dboxrow2.style.display = 'none'
-}
-toggleBtn.addEventListener('click', () => {
-    if(rowClosed){
-        rowClosed = false;
-        dboxrow2.style.height = '100%';
-        dboxrow2.style.overflow = 'visible';
-        toggleBtn.innerHTML = 'Read less';
-        // dboxrow2.style.display = 'block'
-    }
-    else{
-        rowClosed = true;
-        dboxrow2.style.height = '100px';
-        dboxrow2.style.overflow = 'hidden';
-        toggleBtn.innerHTML = 'Read more';
-        // dboxrow2.style.display = 'none';
-    }
+const dboxrow2 = document.getElementsByClassName('d-box-row-2');
+const toggleBtn = document.getElementsByClassName('read-btn');
+let toggleBtnArray = Array.from(toggleBtn);
+let row2Array = Array.from(dboxrow2);
+
+row2Array.forEach((row) => {
+        row.style.height = '100px';
+        row.style.overflow = 'hidden';
 })
+
+toggleBtnArray.map((btn, i) => {
+    let rowClosed = true;
+    btn.addEventListener('click', () => {
+            const row = row2Array[i];        
+                if(rowClosed){
+                    rowClosed = false;
+                    row.style.height = 'auto';
+                    row.style.overflow = 'visible';
+                    btn.innerHTML = 'Read less';
+                }
+                else{
+                    rowClosed = true;
+                    row.style.height = '100px';
+                    row.style.overflow = 'hidden';
+                    btn.innerHTML = 'Read more';
+                } 
+    })
+})
+// Toggle read more or less functionality ends here
+
 
 })
